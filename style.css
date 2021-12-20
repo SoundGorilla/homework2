@@ -1,0 +1,217 @@
+#block511{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: blue;
+}
+#block512{
+    width: 250px;
+    height: 200px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 1cm;
+}
+#block521{
+    border-width: 4px;
+    border-style: ridge;
+    border-color: blue;
+    width: 250px;
+    height: 200px;
+}
+#block522{
+    border-width: 4px;
+    border-style: dotted;
+    border-color: red;
+    width: 250px;
+    height: 200px;
+}
+#block523{
+    border-width: 4px;
+    border-style: dashed;
+    border-color: orange;
+    width: 250px;
+    height: 200px;
+}
+#block524{
+    border-width: 4px;
+    border-style: double;
+    border-color: blue;
+    width: 250px;
+    height: 200px;
+}
+#block531{
+    border: 1px solid red;
+    width: 250px;
+    height: 200px;
+}
+#block532{
+    border: 1px dotted blue;
+    width: 250px;
+    height: 200px;
+}
+#block533{
+    border: 3px dashed green;
+    width: 250px;
+    height: 200px;
+}
+#block534{
+    border: 3px double orange;
+    width: 250px;
+    height: 200px;
+}
+#block541{
+    width: 300px;
+    height: 200px;
+    border-left: 2px solid orange;
+    border-right: 2px solid green;
+    border-top: 2px solid blue;
+    border-bottom:2px solid red ;
+}
+#block542{
+    width: 300px;
+    height: 200px;
+    border-left: 3px solid red;
+    border-right: 3px dotted green;
+    border-top: 2px solid blue;
+    border-bottom:2px solid blue ;
+}
+#block551{
+    width:200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 15px;    
+}
+#block552{
+    width:200px;
+    height: 200px;
+    background-color: rgb(52, 177, 52);
+    border-radius: 15px;    
+}
+#block553{
+    width:200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 100px;    
+}
+#block561{
+    width:200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 20px 30px 40px;    
+}
+#block562{
+    width:200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px ;    
+}
+#block563{
+    width:200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 40px 30px;    
+}
+#block571{
+    width:200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 50%;    
+}
+#block581{
+    width:2000px;
+    height:700px;
+   background-image: url(img/1.png);
+}
+#block582{
+    width:300px;
+    height:900px;
+    background-image:url(img/1.png)
+}
+#block583{
+    width:1900px;
+    height:300px;
+    background-image:url(img/1.png)
+}
+#block591{
+    list-style-type: square;
+}
+#block592{
+    list-style-type: circle;
+}
+#block593{
+    list-style-type: none;
+}
+#block601{
+    list-style-type: lower-alpha;
+}
+#block602{
+    list-style-type: lower-greek;
+}
+#block603{
+    list-style-type:upper-alpha;
+}
+ #parent1{
+     width: 500px;
+     
+     border: 2px dashed blue;
+}
+#child1{   
+     height: 400px;
+     border: 2px solid orange;
+     margin: 30px;
+}
+
+#parent2{
+    width: 500px;
+    
+    border: 2px dashed blue;
+}
+#child2{   
+    height: 400px;
+    border: 2px dashed green;
+    margin: 30px;
+}
+#child22{   
+    height: 300px;
+    border: 2px solid red;
+    margin: 50px;
+}
+
+#parent3 {
+	width: 200px;
+	border: 1px solid red;
+}
+#child3 {
+	margin-top:    51px; /* сверху */
+	margin-right:  51px; /* справа */
+	margin-bottom: 80px; /* снизу */
+	margin-left:   51px; /* слева */
+	
+	height: 100px;
+	border: 1px solid green;
+}
+
+#parent4 {
+	width: 200px;
+	border: 1px solid red;
+    box-sizing: border-box;
+}
+#child4 {
+	margin-top:    80px; /* сверху */
+	margin-right:  52px; /* справа */
+	margin-bottom: 80px; /* снизу */
+	margin-left:   52px; /* слева */
+	box-sizing: border-box;
+	height: 100px;
+	border: 1px solid green;
+}
+     
+   
+    
+
+
+
+
+
+
